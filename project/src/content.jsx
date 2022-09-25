@@ -8,7 +8,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 function Content() {
     return (
         <div className='flex justify-center w-full'>
-            <div className='w-[32rem] h-screen mt-20 text-neutral-50'>
+            <div className='w-[32rem] h-full mt-20 text-neutral-50'>
                 <div className='flex justify-between'>
                     <div>
                         <h2 className='text-4xl'>Erik Hedlund</h2>
@@ -50,12 +50,12 @@ function Content() {
                 <div>
                     <h2 className='text-4xl mt-12 underline underline-offset-4 decoration-neutral-400'>Contact</h2>
                     <div className='flex flex-col items-start'>
+                    <a href={'https://github.com/erihedDev'} className='mt-3 text-xl'><FontAwesomeIcon icon={faGithub}/> <span className='hover:underline underline-offset-2'>erihedDev</span></a>
                         <a href={'https://www.linkedin.com/in/erik-hedlund-a5921624a/'} className='mt-3 text-xl'><FontAwesomeIcon icon={faLinkedin}/> <span className='hover:underline underline-offset-2'>erik-hedlund</span></a>
-                        <a href={'https://github.com/erihedDev'} className='mt-3 text-xl'><FontAwesomeIcon icon={faGithub}/> <span className='hover:underline underline-offset-2'>erihedDev</span></a>
                         <a href={'tel:0703838783'} className='mt-3 text-xl'><FontAwesomeIcon icon={faPhone}/> <span className='hover:underline underline-offset-2'>070-383 87 83</span></a>
-                        <a href={'mailto:erik.hedlund6@gmail.com'} className='mt-3 text-xl'><FontAwesomeIcon icon={faEnvelope}/> <span className='hover:underline underline-offset-2'>erik.hedlund6@gmail.com</span></a>
                         <a href={'mailto:erik.hedlund@elev.ga.ntig.se'} className='mt-3 text-xl'><FontAwesomeIcon icon={faEnvelope}/> <span className='hover:underline underline-offset-2'>erik.hedlund@elev.ga.ntig.se</span></a>
                     </div>
+                    
                 </div>
             </div>
         </div>

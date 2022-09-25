@@ -7,7 +7,7 @@ function Header() {
     <nav className='w-full flex justify-center fixed backdrop-blur'>
       <div className='h-16 w-[48rem] flex justify-between items-center text-neutral-50'>
         <div className='flex text-lg'>
-          <h1 className='font-bold'><a href={'#'}>Erik Hedlund</a></h1>
+          <h1 className='font-bold'><a href={'/'}>Erik Hedlund</a></h1>
           <div className='text-neutral-100'>
             <a href={'#aboutme'} className='ml-10 hover:underline'>About me</a>
             <a href={'#projects'} className='ml-10 hover:underline'>Projects</a>
