@@ -6,7 +6,7 @@ function Introduction() {
         <div className='flex justify-between'>
             <div>
                 <h2 className='text-4xl font-bold'>Erik Hedlund</h2>
-                <p className='text-lg'>Software development student</p>
+                <p className='text-lg font-medium'>Software development student</p>
             </div>
             <div>
                 <p>some image</p>

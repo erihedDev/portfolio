@@ -8,7 +8,7 @@ import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 function Contact() {
     return (
         <div id='contact'>
-            <h2 className='text-4xl mt-12 underline underline-offset-6 decoration-neutral-400 font-bold'>Contact</h2>
+            <h2 className='text-4xl mt-12 underline underline-offset-6 decoration-neutral-400 font-medium'>Contact</h2>
             <div className='flex flex-col items-start mt-6'>
                 <a href={'https://github.com/erihedDev'} className='mt-3 text-xl'><FontAwesomeIcon icon={faGithub}/> <span className='hover:underline underline-offset-2'>erihedDev</span></a>
                 <a href={'https://www.linkedin.com/in/erik-hedlund-a5921624a/'} className='mt-3 text-xl'><FontAwesomeIcon icon={faLinkedin}/> <span className='hover:underline underline-offset-2'>erik-hedlund</span></a>
