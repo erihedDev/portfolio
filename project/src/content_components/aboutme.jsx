@@ -5,15 +5,15 @@ function Aboutme() {
     return (
         <div id='aboutme' className='text-lg'>
             <h2 className='text-4xl mt-12 underline underline-offset-6 decoration-neutral-400 font-bold'>About me</h2>
-            <h3 className='mt-8 mb-1 text-2xl'>Summary</h3>
-            <p className='text-neutral-100 text-justify'>&nbsp; I am Erik Hedlund, a software development student from Sweden. I am currently studying a fourth year of high school where I get to work in projects in groups with other students while using common working practices. <br/> <br/> I have been programming for over three years and I have primarly worked with python and web development using html, css and javascript.</p>
-            <div className='h-1 w-full bg-teal-500 rounded-sm mt-6'></div>
-            <h3 className='mt-8 mb-1 text-2xl'>Timeline</h3>
+            <h3 className='mt-8 mb-1 text-2xl font-bold'>Summary</h3>
+            <p className='text-neutral-100 text-justify'>&nbsp; &nbsp;  My name is Erik Hedlund and I am a software development student from Sweden. I am currently studying a fourth year of high school where I get to work in projects in groups with other students while using common working practices. <br/> <br/> I have been programming for over three years and I have primarly worked with python and web development using html, css and javascript.</p>
+            <div className='h-1 w-full bg-orange-200 rounded-sm mt-6'></div>
+            <h3 className='mt-8 mb-1 text-2xl font-bold'>Timeline</h3>
             <p><span className='font-bold'>2019-2022</span> Studied information technology</p>
             <p><span className='font-bold'>2022-present</span> Studying as a high school engineer</p>
-            <div className='h-1 w-full bg-teal-500 rounded-sm mt-6'></div>
-            <h3 className='mt-8 mb-1 text-2xl'>Knowledge in web development</h3>
-            <p>HTML, CSS, Javascript, mySQL, Node.js, react, vite, tailwindcss, three.js.</p>
+            <div className='h-1 w-full bg-orange-200 rounded-sm mt-6'></div>
+            <h3 className='mt-8 mb-1 text-2xl font-bold'>Knowledge in development</h3>
+            <p>HTML, CSS, Javascript, mySQL, Node.js, react, vite, tailwindcss, three.js. <br/><br/> Python and testing with selenium, lua, github.</p>
         </div>
     )
 }

@@ -14,6 +14,9 @@ function Content() {
                 <Aboutme/>
                 <Projects/>
                 <Contact/>
+                <div>
+                    <h2 className='text-4xl mt-12 underline underline-offset-6 decoration-neutral-400 font-bold'>Credits</h2>
+                </div>
             </div>
         </div>
     )
