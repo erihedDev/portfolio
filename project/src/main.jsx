@@ -6,7 +6,7 @@ import Footer from './footer'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div className='bg-zinc-900 h-full font-mono'>
+  <div className='bg-zinc-900 h-full font-m-plus'>
     <Header/>
     <Content/>
     <Footer/>

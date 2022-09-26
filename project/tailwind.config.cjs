@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'm-plus': ['"M PLUS Rounded 1c"', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }

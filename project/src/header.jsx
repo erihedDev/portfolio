@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import './index.css'
 
 function Header() {
@@ -9,9 +10,9 @@ function Header() {
         <div className='flex text-lg'>
           <h1 className='font-bold'><a href={'/'}>Erik Hedlund</a></h1>
           <div className='text-neutral-100'>
-            <a href={'#aboutme'} className='ml-10 hover:underline'>About me</a>
-            <a href={'#projects'} className='ml-10 hover:underline'>Projects</a>
-            <a href={'#contact'} className='ml-10 hover:underline'>Contact</a>
+            <Link to='aboutme' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline'>About me</Link>
+            <Link to='projects' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline'>Projects</Link>
+            <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline'>Contact</Link>
           </div>
         </div>
         <div className='bg-orange-200 text-black p-4'>
