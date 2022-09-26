@@ -5,7 +5,7 @@ import './index.css'
 function Header() {
 
   return (
-    <nav className='w-full flex justify-center fixed backdrop-blur'>
+    <nav className='w-full flex justify-center fixed backdrop-blur z-1'>
       <div className='h-16 w-[48rem] flex justify-between items-center text-neutral-50'>
         <div className='flex text-lg'>
           <h1 className='font-bold'><a href={'/'}>Erik Hedlund</a></h1>
