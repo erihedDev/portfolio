@@ -11,8 +11,8 @@ function Model() {
     useEffect(() => {
         const scene = new THREE.Scene()
 
-        const width = $("#model").parent().width()
-        const height = $("#model").parent().height()
+        let width = $("#model").parent().width()
+        let height = width
 
         const camera = new THREE.PerspectiveCamera(
             50,
@@ -63,6 +63,15 @@ function Model() {
                 model.scene.rotation.y += 0.01
             }
 
+            if ($("#model").parent().width() !== width) {
+                width = $("#model").parent().width()
+                height = width
+                renderer.setSize(width, height)
+            }
+
+            camera.width = width
+            camera.height = height
+
             controls.update()
             renderer.render(scene, camera)
             window.requestAnimationFrame(animate)
@@ -72,7 +81,7 @@ function Model() {
     })
 
     return (
-        <div className='w-full h-96'>
+        <div className='aspect-square max-w-[500px]'>
             <canvas id='model'/>
         </div>
     )

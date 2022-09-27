@@ -12,7 +12,7 @@ import Model from './model'
 function Content() {
     return (
         <div className='flex justify-center w-full'>
-            <div className='w-[32rem] h-full mt-20 text-neutral-50'>
+            <div className='w-full sm:w-[32rem] h-full mt-20 text-neutral-50'>
                 <Model/>
                 <Introduction/>
                 <Aboutme/>
