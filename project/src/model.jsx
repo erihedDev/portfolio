@@ -60,7 +60,7 @@ function Model() {
 
         const animate = () => {
             if (model) {
-                model.scene.rotation.y += 0.005
+                model.scene.rotation.y += 0.01
             }
 
             controls.update()
