@@ -2,17 +2,6 @@ import React from 'react'
 import '../index.css'
 
 function Aboutme() {
-    let Thingy = (props) => {
-        return (
-            <div>
-                {
-                    (props.title) ? <h3 className='mt-8 mb-1 text-2xl font-medium'>{props.title}</h3> : null
-                }
-                <p>{props.content}</p>
-            </div>
-        )
-    }
-    console.log(Thingy)
     return (
         <div id='aboutme' className='text-lg mx-4 sm:mx-0'>
             <h2 className='text-4xl mt-12 underline underline-offset-4 decoration-neutral-400 font-medium'>About me</h2>
@@ -26,8 +15,6 @@ function Aboutme() {
             <h3 className='mt-8 mb-1 text-2xl font-medium'>Knowledge in development</h3>
             <p>HTML, CSS, Javascript, mySQL, Node.js, react, vite, tailwindcss, three.js. <br/><br/> Python and testing with selenium, lua, github.</p>
             <div className='h-1 w-full bg-orange-200 rounded-sm mt-6'></div>
-            
-            <Thingy title="test" content="hello world" />
         </div>
     )
 }
