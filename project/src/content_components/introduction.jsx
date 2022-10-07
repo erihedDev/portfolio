@@ -9,7 +9,7 @@ function Introduction() {
                 <p className='text-lg font-medium'>Software development student</p>
             </div>
             <div>
-                <p>some image</p>
+                <p></p>
             </div>
         </div>
     )

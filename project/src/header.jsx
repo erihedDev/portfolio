@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import './index.css'
 
-import { Menu } from "@headlessui/react";
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
