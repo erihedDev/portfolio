@@ -45,7 +45,7 @@ function Model() {
 
         let model
 
-        loader.load('assets/models/voxelcat.glb', function (gltf) {
+        loader.load('project/src/assets/models/voxelcat.glb', function (gltf) {
             gltf.scene.scale.set( 30, 30, 30 )
             gltf.scene.rotation.x = (Math.PI / 180) * 15
             model = gltf
