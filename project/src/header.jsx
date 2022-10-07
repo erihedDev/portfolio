@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import './index.css'
 
+import { Menu } from "@headlessui/react";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -12,7 +14,7 @@ function Header() {
       <div className='h-16 mx-4 w-full md:w-[48rem] flex justify-between items-center text-neutral-50'>
         <div className='flex text-lg'>
           <h1 className='font-bold'><a href={'/'}>Erik Hedlund</a></h1>
-          <div className='text-neutral-100 block'>
+          <div className='text-neutral-100 sm:block hidden'>
             <Link to='aboutme' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline cursor-pointer'>About me</Link>
             <Link to='projects' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline cursor-pointer'>Projects</Link>
             <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} className='ml-10 hover:underline cursor-pointer'>Contact</Link>
